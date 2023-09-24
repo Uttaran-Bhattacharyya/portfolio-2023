@@ -16,7 +16,7 @@
     </p>
     <NuxtLink to="/contact">
       <p
-        class="w-56 rounded-md border-[1px] border-[white] py-1 text-center hover:shadow-md"
+        class="w-56 rounded-md border-[1px] border-[white] py-1 text-center hover:shadow-md hover:text-[black]"
       >
         Get in touch
       </p>
