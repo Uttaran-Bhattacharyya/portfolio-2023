@@ -25,7 +25,7 @@
         </p>
       </div>
       <img
-        src="images/1686985905864.jpeg"
+        src="/images/1686985905864.jpeg"
         width="256"
         height="256"
         alt="profile"
