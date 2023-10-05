@@ -1,13 +1,19 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+useHead({
+  title: "Portfolio - Uttaran Bhattacharyya",
+});
+</script>
 
 <template>
   <div class="mx-auto max-w-7xl pt-12 text-white font-thin">
-    <h3 class="text-3xl">Hi there! I&apos;m</h3>
+    <span class="text-3xl">Hello! I&apos;m</span>
     <h1 class="mt-6 text-9xl text-[black]">Uttaran</h1>
-    <p class="mt-12 text-6xl">I'm a fresher from Kolkata, India.</p>
+    <p class="mt-12 text-6xl">
+      I'm an aspiring frontend developer from Kolkata, India.
+    </p>
     <p class="mt-6 text-3xl">
-      I'm currently working as a software engineer at ZapScale. I aspire to
-      utilize my skills and interest in software development to contribute to
+      I'm currently looking for oppurtunities as a software engineer. I aspire
+      to learn and acquire skills in software development to contribute to
       developing purposeful applications.
     </p>
     <p class="mb-4 mt-16">

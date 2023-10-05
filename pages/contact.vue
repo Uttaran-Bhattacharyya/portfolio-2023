@@ -1,6 +1,10 @@
 <script setup lang="ts">
 import { SimplePublicObject } from "@hubspot/api-client/lib/codegen/crm/contacts";
 
+useHead({
+  title: "Contact",
+});
+
 const formData = ref({ firstName: "", lastName: "", message: "", email: "" });
 
 async function onSubmitForm() {
@@ -75,7 +79,7 @@ async function onSubmitForm() {
         ></textarea>
         <button
           type="submit"
-          class="w-full border-[1px] border-black bg-yellow-600 py-2 outline-none hover:border-[black] focus:border-[black] placeholder:text-black hover:text-black"
+          class="w-full border-[1px] border-black bg-yellow-600 py-2 outline-none hover:border-[black] focus:border-[black] placeholder:text-black text-black font-normal"
         >
           Send message
         </button>
@@ -84,7 +88,7 @@ async function onSubmitForm() {
         <h4 class="text-3xl">Contact</h4>
 
         <NuxtLink
-          to="https://mail.google.com/mail/?view=cm&fs=1&to=sourish215@gmail.com"
+          to="https://mail.google.com/mail/?view=cm&fs=1&to=uttaranbhattacharyya@gmail.com"
           target="_blank"
         >
           <p class="text-xl hover:text-[black]">

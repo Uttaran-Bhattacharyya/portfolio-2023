@@ -1,4 +1,8 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+useHead({
+  title: "About",
+});
+</script>
 
 <template>
   <div class="mx-auto max-w-7xl pt-6 font-thin text-white">
@@ -6,19 +10,10 @@
     <div class="mt-12 flex flex-row gap-x-12">
       <div class="w-2/3 space-y-4 text-2xl">
         <p>
-          I'm Uttaran Bhattacharyya, a graduate from the MCA. Computer
-          Applications program at Techno India University, Kolkata.
+          I'm Uttaran Bhattacharyya, a graduate from the Master of Computer
+          Application program at Techno India University, Kolkata.
         </p>
-        <p>
-          I'm a software engineer at
-          <NuxtLink
-            to="https://zapscale.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="hover:text-[#00dc81]"
-            >ZapScale</NuxtLink
-          >
-        </p>
+        <p>I'm a software engineer</p>
         <p>
           I aspire to utilize my skills and interest in software development and
           contribute to developing purposeful applications.

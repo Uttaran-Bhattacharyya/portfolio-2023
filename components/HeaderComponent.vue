@@ -10,19 +10,19 @@
       </NuxtLink> -->
       <div class="flex flex-row gap-x-12">
         <NuxtLink to="/">
-          <p class="text-2xl hover:text-[#00dc81]">Home</p>
+          <p class="text-2xl hover:text-[black]">Home</p>
         </NuxtLink>
         <NuxtLink to="/projects">
-          <p class="text-2xl hover:text-[#00dc81]">Projects</p>
+          <p class="text-2xl hover:text-[black]">Projects</p>
         </NuxtLink>
         <NuxtLink to="/resume">
-          <p class="text-2xl hover:text-[#00dc81]">Resume</p>
+          <p class="text-2xl hover:text-[black]">Resume</p>
         </NuxtLink>
         <NuxtLink to="/about">
-          <p class="text-2xl hover:text-[#00dc81]">About</p>
+          <p class="text-2xl hover:text-[black]">About</p>
         </NuxtLink>
         <NuxtLink to="/contact">
-          <p class="text-2xl hover:text-[#00dc81]">Contact</p>
+          <p class="text-2xl hover:text-[black]">Contact</p>
         </NuxtLink>
       </div>
     </div>
