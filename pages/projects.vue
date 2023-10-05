@@ -25,7 +25,6 @@ const projects = [
   {
     name: "THIS WEBSITE",
     tech: ["Nuxt 3", "Tailwind", "Vercel"],
-    link: "https://portfolio-2023-gamma-ochre.vercel.app/",
   },
 ];
 </script>
@@ -58,6 +57,7 @@ const projects = [
           </li>
         </ul>
         <NuxtLink
+          v-if="project.link"
           :to="project.link"
           target="_blank"
           class="hover:text-black text-xl font-semibold underline"
