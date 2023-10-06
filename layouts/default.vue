@@ -3,7 +3,7 @@
 <template>
   <div class="flex min-h-screen flex-col">
     <HeaderComponent class="fixed top-0 z-10 shadow-sm" />
-    <div class="grow bg-yellow-600 pt-24">
+    <div class="grow bg-yellow-600 pt-10 md:pt-24">
       <slot />
     </div>
     <!-- <Footer /> -->

@@ -17,7 +17,7 @@ const skills = [
 
 <template>
   <div class="mx-auto max-w-7xl pt-6 font-thin text-white text-center">
-    <h1 class="text-center text-5xl mb-12 font-bold">Resume</h1>
+    <h1 class="text-center text-5xl mb-12">Resume</h1>
     <NuxtLink
       to="https://drive.google.com/file/d/1V3VVGaqiy8DspXzO-pwR6ef7cNJxoEna/view?usp=sharing"
       target="_blank"
@@ -26,7 +26,7 @@ const skills = [
     >
     <h2 class="text-3xl font-bold mb-3">Education:</h2>
     <div
-      class="flex flex-row justify-evenly items-start border-[3px] rounded-3xl py-4 px-3 w-4/5 mx-auto mb-8"
+      class="flex flex-col md:flex-row gap-y-6 justify-evenly items-start border-[3px] rounded-3xl py-4 px-3 w-4/5 mx-auto mb-8"
     >
       <div class="text-left">
         <span class="block text-3xl font-bold">MCA</span>
@@ -50,7 +50,7 @@ const skills = [
 
     <h2 class="text-3xl font-bold mb-3">Skills:</h2>
     <div
-      class="grid grid-cols-4 justify-evenly items-start border-[3px] rounded-3xl py-4 px-3 w-4/5 mx-auto"
+      class="grid grid-cols-2 gap-y-3 text-left md:grid-cols-4 justify-evenly items-start border-[3px] rounded-3xl py-4 px-3 w-4/5 mx-auto"
     >
       <span v-for="item in skills" :key="item" class="text-2xl font-semibold">{{
         item

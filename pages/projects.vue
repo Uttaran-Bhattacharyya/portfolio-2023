@@ -30,9 +30,11 @@ const projects = [
 </script>
 
 <template>
-  <div class="mx-auto max-w-7xl pt-6 font-thin text-white">
-    <h1 class="text-center text-5xl mb-12 font-bold">Projects</h1>
-    <div class="grid grid-cols-2 gap-y-12 gap-x-12 justify-evenly">
+  <div class="mx-auto max-w-7xl pt-6 font-thin px-5 text-white">
+    <h1 class="text-center text-5xl mb-12">Projects</h1>
+    <div
+      class="grid grid-cols-1 md:grid-cols-2 gap-y-12 gap-x-12 justify-evenly"
+    >
       <div
         class="col-span-1 p-6 border-[3px] rounded-3xl"
         v-for="project in projects"

@@ -33,12 +33,12 @@ async function onSubmitForm() {
 </script>
 
 <template>
-  <div class="mx-auto max-w-7xl pt-6 font-thin text-white">
-    <h3 class="text-center text-5xl">Get in touch</h3>
+  <div class="mx-auto max-w-7xl pt-6 font-thin px-5 text-white">
+    <h1 class="text-center text-5xl">Get in touch</h1>
     <div
-      class="mx-auto mt-12 flex w-9/12 flex-row justify-between border-[1px] border-white p-12"
+      class="mx-auto mt-12 flex md:w-9/12 gap-y-8 flex-col md:flex-row justify-between border-[1px] border-white p-12"
     >
-      <form @submit.prevent="onSubmitForm" class="w-2/5 space-y-6">
+      <form @submit.prevent="onSubmitForm" class="md:w-2/5 space-y-6">
         <input
           required
           id="firstname"
@@ -46,7 +46,7 @@ async function onSubmitForm() {
           name="firstname"
           type="text"
           v-model="formData.firstName"
-          class="w-full border-b-[1px] border-black bg-yellow-600 py-2 outline-none hover:border-[black] focus:border-[black] placeholder:text-black"
+          class="w-full border-b-[1px] border-black bg-yellow-600 py-2 outline-none hover:border-[black] focus:border-[black] placeholder:text-white"
         />
         <input
           required
@@ -55,7 +55,7 @@ async function onSubmitForm() {
           name="lastname"
           type="text"
           v-model="formData.lastName"
-          class="w-full border-b-[1px] border-black bg-yellow-600 py-2 outline-none hover:border-[black] focus:border-[black] placeholder:text-black"
+          class="w-full border-b-[1px] border-black bg-yellow-600 py-2 outline-none hover:border-[black] focus:border-[black] placeholder:text-white"
         />
         <input
           required
@@ -64,7 +64,7 @@ async function onSubmitForm() {
           name="email"
           type="email"
           v-model="formData.email"
-          class="w-full border-b-[1px] border-black bg-yellow-600 py-2 outline-none hover:border-[black] focus:border-[black] placeholder:text-black"
+          class="w-full border-b-[1px] border-black bg-yellow-600 py-2 outline-none hover:border-[black] focus:border-[black] placeholder:text-white"
         />
         <textarea
           required
@@ -75,16 +75,16 @@ async function onSubmitForm() {
           rows="1"
           maxlength="300"
           v-model="formData.message"
-          class="w-full border-b-[1px] border-black bg-yellow-600 py-2 outline-none hover:border-[black] focus:border-[black] placeholder:text-black"
+          class="w-full border-b-[1px] border-black bg-yellow-600 py-2 outline-none hover:border-[black] focus:border-[black] placeholder:text-white"
         ></textarea>
         <button
           type="submit"
-          class="w-full border-[1px] border-black bg-yellow-600 py-2 outline-none hover:border-[black] focus:border-[black] placeholder:text-black text-black font-normal"
+          class="w-full border-[1px] border-white bg-yellow-600 py-2 outline-none focus:border-[black] placeholder:text-white hover:text-black font-normal"
         >
-          Send message
+          Send Message
         </button>
       </form>
-      <div class="w-2/5 text-left">
+      <div class="md:w-2/5 text-left">
         <h4 class="text-3xl">Contact</h4>
 
         <NuxtLink

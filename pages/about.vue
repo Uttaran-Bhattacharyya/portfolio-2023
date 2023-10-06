@@ -5,10 +5,10 @@ useHead({
 </script>
 
 <template>
-  <div class="mx-auto max-w-7xl pt-6 font-thin text-white">
+  <div class="mx-auto max-w-7xl pt-6 px-5 font-thin text-white">
     <h3 class="text-center text-5xl">Hello!</h3>
-    <div class="mt-12 flex flex-row gap-x-12">
-      <div class="w-2/3 space-y-4 text-2xl">
+    <div class="mt-12 flex flex-col-reverse gap-y-4 md:flex-row gap-x-12">
+      <div class="md:w-2/3 mx-auto space-y-4 text-2xl">
         <p>
           I'm Uttaran Bhattacharyya, a graduate from the Master of Computer
           Application program at Techno India University, Kolkata.
@@ -24,7 +24,7 @@ useHead({
         width="256"
         height="256"
         alt="profile"
-        class="h-64 w-64 rounded-xl"
+        class="h-64 mx-auto w-64 rounded-xl"
       />
     </div>
   </div>
