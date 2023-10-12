@@ -39,7 +39,7 @@ function closeMenu() {
       </div>
     </div>
 
-    <div class="h-12 justify-end px-5 flex flex-row items-center">
+    <div class="h-12 justify-end px-5 flex flex-row items-center md:hidden">
       <button @click="openMenu" class="text-2xl">&#9776;</button>
     </div>
 
