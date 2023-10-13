@@ -9,10 +9,10 @@ useHead({
     <span class="text-xl md:text-3xl">Hello! I&apos;m</span>
     <h1 class="mt-3 md:mt-6 text-5xl md:text-9xl text-[black]">Uttaran</h1>
     <p class="mt-4 md:mt-12 text-2xl md:text-6xl">
-      I'm an aspiring frontend developer from Kolkata, India.
+      I'm an aspiring front-end developer from Kolkata, India.
     </p>
     <p class="mt-3 md:mt-6 text-xl md:text-3xl">
-      I'm currently looking for oppurtunities as a software engineer. I aspire
+      I'm currently looking for opportunities as a software engineer. I aspire
       to learn and acquire skills in software development to contribute to
       developing purposeful applications.
     </p>

@@ -30,7 +30,7 @@ const projects = [
 </script>
 
 <template>
-  <div class="mx-auto max-w-7xl pt-6 font-thin px-5 text-white">
+  <div class="mx-auto max-w-7xl py-6 font-thin px-5 text-white">
     <h1 class="text-center text-5xl mb-12">Projects</h1>
     <div
       class="grid grid-cols-1 md:grid-cols-2 gap-y-12 gap-x-12 justify-evenly"
